@@ -1,0 +1,142 @@
+body {
+  color: #40514E;
+  margin: 0px;
+  text-align: center; /*text-align: center will center everything inside the body that doesnt have the width*/
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color:#66BFBF;
+  font-size: 5.625rem; /* rem(root em)(it's better than em or percentage) is the perfect variant for sizing our front size so another sizing like parents in css cannot change the sizing. it's like constant that can't be changed "rem", it's recomended to use */
+  font-family: 'Sacramento', cursive;
+  margin-top: 50px auto 0 auto; /* the margin: поле auto is for centering element horisontally that also have the width */
+}
+
+h2 {
+  color:#66BFBF;
+  font-weight: normal;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 7px;  /*it's how we can do circle dotted horisonatl line */
+  border-bottom: none;
+  width: 4%;
+  margin:100px auto;
+
+}
+a {
+  color: #11999E;
+  font-family: 'Anonymous Pro', monospace;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+    background-color: #c8d9eb;
+    position: relative; /*i put it to "relative-position" in order to position(topbottomclouds) relative to smth, here relative to parents which is top-container here*/
+    padding-top: 100px; /*it helps to give space*/
+}
+
+.middle-container {
+  margin: 100px 0;  /*margin is also for giving spase*/
+}
+
+.bottom-container {
+  background-color:#66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  margin: 100px auto 150px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.copyrigth{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+.top-cloud {
+position: absolute;
+right: 300px;
+top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.webp {
+  width: 25%;  /*width for image sizing */
+  float: left; /*float is for displaying elements on the same line*/
+  margin-right: 30px;
+  margin-bottom: auto;
+}
+
+.photop {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.center {
+  width: 15%;
+}  /*clear: left; /*clear is like clearind erasing everything on left right or other side of element*/
+
+.BUTTON {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 20px;
+  text-shadow: 1px 1px 20px #FFFFFF;
+  border: solid #11CDD4 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON:hover {
+  border: solid #FFFFFF 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
